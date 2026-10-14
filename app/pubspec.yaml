@@ -1,0 +1,45 @@
+name: kick_exchange
+description: "KickExchange v2 - Buy, Sell & Trade Sneakers"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design System
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  qr_flutter: ^4.1.0
+
+  # State Management & Functional
+  flutter_bloc: ^8.1.6
+  bloc_concurrency: ^0.2.5
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  get_it: ^7.7.0
+
+  # Local Persistence & Security
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+  flutter_secure_storage: ^9.2.2
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # Networking & Utilities
+  dio: ^5.4.3+1
+  uuid: ^4.4.0
+  sqflite_common_ffi_web: ^0.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
